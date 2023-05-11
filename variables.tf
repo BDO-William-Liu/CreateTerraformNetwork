@@ -7,7 +7,7 @@ variable "name" {
 variable "location" {
     description = "location of virtual network server"
     type = string
-    default = "East US"
+    default = "East CANADA LOL"
 }
 
 variable "address_space" {
