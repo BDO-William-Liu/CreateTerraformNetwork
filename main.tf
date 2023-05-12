@@ -1,4 +1,4 @@
-module "create-azure-vm" {
+module "create-azure-network" {
     source = "./AzureNetworkTerraform"
 
     name = var.name

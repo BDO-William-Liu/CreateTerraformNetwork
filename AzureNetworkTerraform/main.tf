@@ -23,7 +23,7 @@ resource "azurerm_resource_group" "AzureRG" {
 }
 
 resource "azurerm_virtual_network" "AzureNetwork" {
-    name = "${var.name}-Network"
+    name = var.name
     resource_group_name = azurerm_resource_group.AzureRG.name
     address_space = var.address_space
     location = azurerm_resource_group.AzureRG.location
