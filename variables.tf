@@ -1,7 +1,7 @@
 variable "name" {
     description = "name of virtual network"
     type = string
-    default = "BDO"
+    default = "terraformVN"
 }
 
 variable "location" {
