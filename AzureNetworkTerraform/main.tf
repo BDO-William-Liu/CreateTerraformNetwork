@@ -19,7 +19,7 @@ provider "azurerm" {
 
 resource "azurerm_virtual_network" "AzureNetwork" {
     name = var.name
-    resource_group_name = var.resource_group_name
+    resource_group_name = var.resource_group
     address_space = var.address_space
     location = var.location
 }
