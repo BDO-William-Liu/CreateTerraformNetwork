@@ -10,6 +10,12 @@ variable "location" {
     default = ""
 }
 
+variable "resource_group" {
+    description = "name of the resource group to be used"
+    type = string
+    default = ""
+}
+
 variable "address_space" {
     description = "network address of virtual network server"
     type = list(string)
