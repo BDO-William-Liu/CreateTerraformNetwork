@@ -3,5 +3,6 @@ module "create-azure-network" {
 
     name = var.name
     location = var.location
+    resource_group = var.resource_group
     address_space = var.address_space
 }
